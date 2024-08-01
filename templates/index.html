@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tree Status App</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Tree Status App</h1>
+        <button onclick="startListening()">Speak</button>
+        <p id="status">Press the button and start speaking...</p>
+        <h2>Tree Status</h2>
+        <table id="treeTable">
+            <thead>
+                <tr>
+                    <th>Tree Name</th>
+                    <th>Status</th>
+                    <th>Color</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Rows will be inserted here by JavaScript -->
+            </tbody>
+        </table>
+    </div>
+    <script src="/static/js/script.js"></script>
+</body>
+</html>
